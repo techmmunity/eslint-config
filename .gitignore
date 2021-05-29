@@ -1,0 +1,18 @@
+# Node Modules
+node_modules/
+
+# Coverage
+coverage/
+
+# Build
+dist/
+
+# Lint
+lib/
+
+# Logs
+*.log*
+
+# TypeScript
+tsconfig.*
+!tsconfig.json

@@ -1,0 +1,3 @@
+it("", () => {
+	expect(undefined).toBeUndefined();
+});

@@ -1,0 +1,20 @@
+# Node Modules
+node_modules/
+
+# Scripts
+scripts/
+
+# Coverage
+coverage/
+
+# Build
+dist/
+
+# Lint
+lib/
+
+# Files
+*.js
+
+# Core
+core/
