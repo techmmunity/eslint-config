@@ -7,5 +7,5 @@
 		"node": true
 	},
 	"extends": "./src/common",
-	"root": true
+	"ignorePatterns": ["doc/"]
 }
