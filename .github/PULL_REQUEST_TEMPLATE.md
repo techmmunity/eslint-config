@@ -1,34 +1,29 @@
+## What this PR introduces?
+
+<!-- Please, includes adescription of this pull request -->
+
 ## PR Checklist
 
 Please check if your PR fulfills the following requirements:
 
-- [ ] The commit message follows our guidelines: https://github.com/techmmunity/easy-check/blob/master/CONTRIBUTING.md
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
+- [ ] I have followed GitFlow pattern to create the branch
+- [ ] I have added all the `peerDependencies` needed as `devDependencies` too
+- [ ] I have added the new `peerDependecies` to the installation docs
+- [ ] I have tested the updates and it works
 
 ## PR Type
 
 What kind of change does this PR introduce?
 
-<!-- Please check the one that applies to this PR using "x". -->
-
 ```
+[ ] Hotfix
 [ ] Bugfix
 [ ] Feature
+[ ] Documentation update
 [ ] Code style update (formatting, local variables)
 [ ] Refactoring (no functional changes, no api changes)
-[ ] Build related changes
-[ ] CI related changes
-[ ] Other... Please describe:
+[ ] CI/CD related changes
 ```
-
-## What is the current behavior?
-
-<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
-
-Issue Number: N/A
-
-## What is the new behavior?
 
 ## Does this PR introduce a breaking change?
 
@@ -39,4 +34,4 @@ Issue Number: N/A
 
 <!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
 
-## Other information
+## Other information (Prints, details, etc)

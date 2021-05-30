@@ -1,44 +1,97 @@
-# Techmmunity Base Project Services
+# Techmmunity ESLint StyleGuide
 
-[![CodeFactor](https://www.codefactor.io/repository/github/techmmunity/base-project-services/badge)](https://www.codefactor.io/repository/github/techmmunity/base-project-services)
-[![DeepScan grade](https://deepscan.io/api/teams/13883/projects/17164/branches/385798/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13883&pid=17164&bid=385798)
-[![Coverage Status](https://coveralls.io/repos/github/Techmmunity/base-project-services/badge.svg?branch=master)](https://coveralls.io/github/Techmmunity/base-project-services?branch=master)
-[![tests](https://github.com/Techmmunity/base-project-services/workflows/coverage/badge.svg)]()
-[![npm](https://img.shields.io/npm/v/@techmmunity/base-project-services.svg?color=CC3534)](https://www.npmjs.com/package/@techmmunity/base-project-services)
-[![Downloads](https://img.shields.io/npm/dw/@techmmunity/base-project-services.svg)](https://www.npmjs.com/package/@techmmunity/base-project-services)
+In this package, you can found eslint rules used by the **Techmmunity Projects**.
 
-Description of the service
+We try to keep a clean and consistent code style, with modern functions and using best praticies.
 
 [![Discord Badge](https://img.shields.io/badge/join%20our%20community-7289DA?style=for-the-badge&labelColor=7289DA&logo=discord&logoColor=white)](https://discord.gg/qCJXz6P4qw)
 
-## Install
+## Modules
 
-With Yarn:
+This repository contains the best praticies divided by languages, frameworks and tools. The currently existant modules are:
+
+- Commun
+- TypeScript
+- Jest
+
+### Common
+
+The commun module is the default rules used by every javascript project. It doesn't contains any special config for frameworks, backend, frontand or npm package. **You must import this module if you want to use any of the other modules of this package.**
+
+#### Install
+
+As the ESLint plugins are loaded from the user's project and not from the package project, you also must install the package and all it's **peerDependencies** all the plugins used by this package.
 
 ```sh
-yarn add @techmmunity/base-project-packages
+yarn add -D @techmmunity/eslint-config \
+	eslint \
+	prettier \
+	eslint-plugin-import \
+	eslint-plugin-sonarjs \
+	eslint-plugin-filenames \
+	eslint-plugin-prefer-arrow \
+	eslint-plugin-prettier
 ```
 
-With NPM:
+#### Usage
+
+Create an `.eslintrc` file in the root folder of your package and add this content to it:
+
+```json
+{
+  "extends": "@techmmunity/eslint-config/common"
+}
+```
+
+### TypeScript
+
+Specific configs for typescript projects.
+
+#### Install (only the pluggins, follow the steps of commun mudule first!)
 
 ```sh
-npm i @techmmunity/base-project-packages
+yarn add -D @typescript-eslint/eslint-plugin \
+	@typescript-eslint/parser
 ```
 
-## Usage
+#### Usage
 
-With TypeScript:
+Create an `.eslintrc` file in the root folder of your package and add this content to it:
 
-```ts
+```json
+{
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "tsconfig.json",
+		"sourceType": "module"
+	},
+  "extends": [
+		"@techmmunity/eslint-config/common", // The commun module always should be the first!
+		"@techmmunity/eslint-config/typescript",
+	]
+}
 ```
 
-With JavaScript:
+### Jest
 
-```js
+Specific configs to projects that uses Jest.
+
+#### Install (only the pluggins, follow the steps of commun mudule first!)
+
+```sh
+yarn add -D eslint-plugin-jest \
+	eslint-plugin-jest-formatting
 ```
 
-## How to contribute?
+#### Usage
 
-All the details about contributing to the project are [described here](https://github.com/techmmunity/base-project-services/blob/master/CONTRIBUTING.md).
+Create an `.eslintrc` file in the root folder of your package and add this content to it:
 
-## Documentation
+```json
+{
+  "extends": [
+		"@techmmunity/eslint-config/common", // The commun module always should be the first!
+		"@techmmunity/eslint-config/jest",
+	]
+}
+```

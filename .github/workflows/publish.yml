@@ -10,23 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Dependencies
-        run: |
-          yarn
-
-      - name: Run Tests
-        run: |
-          yarn test
-
       - name: Build
-        run: |
-          yarn build
-
-      - name: Copy files
-        run: |
-          cp package.json dist/package.json
-          cp README.md dist/README.md
-          cp LICENSE dist/LICENSE
+        run: yarn build
 
       - name: Setup Package Manager
         uses: actions/setup-node@master
