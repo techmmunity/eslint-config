@@ -1,0 +1,4 @@
+{
+	"extends":[ "@techmmunity/eslint-config/common"],
+	"root": true
+}

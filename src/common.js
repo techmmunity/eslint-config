@@ -9,6 +9,9 @@
 module.exports = {
 	plugins: ["import", "sonarjs", "filenames", "prefer-arrow", "prettier"],
 	extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
+	env: {
+		es6: true,
+	},
 	rules: {
 		/**
 		 * Possible Errors

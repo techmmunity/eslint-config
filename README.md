@@ -18,6 +18,8 @@ This repository contains the best praticies divided by languages, frameworks and
 
 The commun module is the default rules used by every javascript project. It doesn't contains any special config for frameworks, backend, frontand or npm package. **You must import this module if you want to use any of the other modules of this package.**
 
+**Tip:** You can see an example project [here](https://github.com/techmmunity/eslint-config/blob/master/doc/example-project-common)
+
 #### Install
 
 As the ESLint plugins are loaded from the user's project and not from the package project, you also must install the package and all it's **peerDependencies** all the plugins used by this package.
@@ -35,7 +37,7 @@ yarn add -D @techmmunity/eslint-config \
 
 #### Usage
 
-Create an `.eslintrc` file in the root folder of your package and add this content to it:
+Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
 
 ```json
 {
@@ -56,7 +58,7 @@ yarn add -D @typescript-eslint/eslint-plugin \
 
 #### Usage
 
-Create an `.eslintrc` file in the root folder of your package and add this content to it:
+Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
 
 ```json
 {
@@ -85,7 +87,7 @@ yarn add -D eslint-plugin-jest \
 
 #### Usage
 
-Create an `.eslintrc` file in the root folder of your package and add this content to it:
+Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
 
 ```json
 {
@@ -94,4 +96,25 @@ Create an `.eslintrc` file in the root folder of your package and add this conte
 		"@techmmunity/eslint-config/jest",
 	]
 }
+```
+
+## Extra - VSCode Tips & Trics
+
+#### See the errors and warnings
+
+- Use `Ctrl + Shift + X`
+- Search for `dbaeumer.vscode-eslint`
+- Install the extension
+
+#### Auto fix issues
+
+- Use `Ctrl + Shift + P`
+- Search for `Preferences: Open Settings (JSON)`
+- Click in it
+- Add this to the JSON:
+```json
+// Make ESLint fix all the things that he can on save (like prettier formating)
+"editor.codeActionsOnSave": {
+	"source.fixAll.eslint": true
+},
 ```
