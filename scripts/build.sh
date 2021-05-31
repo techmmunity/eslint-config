@@ -10,4 +10,3 @@ cp -r src dist
 cp LICENSE dist/LICENSE
 cp package.json dist/package.json
 cp README.md dist/README.md
-cp yarn.lock dist/yarn.lock
