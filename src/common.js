@@ -21,7 +21,6 @@ module.exports = {
 		"no-await-in-loop": "error",
 		"no-console": "error",
 		"no-constant-condition": "warn",
-		"no-extra-parens": "error",
 		"no-loss-of-precision": "error",
 		"no-unreachable-loop": "error",
 		"no-unsafe-optional-chaining": "error",
@@ -101,7 +100,6 @@ module.exports = {
 		 * https://eslint.org/docs/rules/<RULE_NAME>
 		 */
 		"block-spacing": "error",
-		"brace-style": "error",
 		"camelcase": "error",
 		"capitalized-comments": "error",
 		"comma-spacing": [
