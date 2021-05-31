@@ -63,12 +63,6 @@ module.exports = {
 		"no-iterator": "error",
 		"no-labels": "error",
 		"no-lone-blocks": "error",
-		"no-magic-numbers": [
-			"error",
-			{
-				ignoreDefaultValues: true,
-			},
-		],
 		"no-multi-spaces": "error",
 		"no-new": "error",
 		"no-new-func": "error",
@@ -100,7 +94,6 @@ module.exports = {
 		"no-label-var": "error",
 		"no-shadow": "error",
 		"no-undef-init": "error",
-		"no-undefined": "error",
 		"no-use-before-define": "error",
 		/**
 		 * Stylistic Issues
@@ -170,7 +163,6 @@ module.exports = {
 			},
 		],
 		"operator-assignment": "error",
-		"operator-linebreak": ["error", "before"],
 		"padded-blocks": ["error", "never"],
 		"padding-line-between-statements": [
 			"error",
@@ -288,7 +280,7 @@ module.exports = {
 		 *
 		 * https://github.com/selaux/eslint-plugin-filenames#rules
 		 */
-		"filenames/match-regex": ["error", "^[a-z-.]+$", true],
+		"filenames/match-regex": ["error", "^[a-z0-9-.@]+$", true],
 		/**
 		 * Plugins - Prefer Arrow Function
 		 *
