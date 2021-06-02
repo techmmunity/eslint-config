@@ -39,15 +39,27 @@ module.exports = {
 			"error",
 			{
 				selector: "default",
-				format: ["camelCase"],
+				format: ["strictCamelCase"],
+			},
+			{
+				selector: "enum",
+				format: ["StrictPascalCase"],
+				custom: {
+					regex: "Enum$",
+					match: true,
+				},
+			},
+			{
+				selector: "enumMember",
+				format: ["UPPER_CASE"],
 			},
 			{
 				selector: "variableLike",
-				format: ["camelCase", "UPPER_CASE"],
+				format: ["strictCamelCase", "UPPER_CASE"],
 			},
 			{
 				selector: "typeLike",
-				format: ["PascalCase"],
+				format: ["StrictPascalCase"],
 			},
 		],
 		"@typescript-eslint/no-base-to-string": "error",
