@@ -1,22 +1,18 @@
 /* eslint-disable no-magic-numbers */
 
-/**
- * Every part of this file has and url to redirect
- * you to the rule docs page, you just need to change
- * the <RULE_NAME> to the rule name.
- */
-
 module.exports = {
 	plugins: ["import", "sonarjs", "filenames", "prefer-arrow", "prettier"],
 	extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
 	env: {
-		es6: true,
+		browser: true,
+		es2021: true,
+		node: true,
 	},
 	rules: {
 		/**
 		 * Possible Errors
 		 *
-		 * https://eslint.org/docs/rules/<RULE_NAME>
+		 * https://eslint.org/docs/rules
 		 */
 		"no-await-in-loop": "error",
 		"no-console": "error",
@@ -29,7 +25,7 @@ module.exports = {
 		/**
 		 * Best Praticies
 		 *
-		 * https://eslint.org/docs/rules/<RULE_NAME>
+		 * https://eslint.org/docs/rules
 		 */
 		"accessor-pairs": [
 			"warn",
@@ -88,7 +84,7 @@ module.exports = {
 		/**
 		 * Variables
 		 *
-		 * https://eslint.org/docs/rules/<RULE_NAME>
+		 * https://eslint.org/docs/rules
 		 */
 		"no-label-var": "error",
 		"no-shadow": "error",
@@ -97,7 +93,7 @@ module.exports = {
 		/**
 		 * Stylistic Issues
 		 *
-		 * https://eslint.org/docs/rules/<RULE_NAME>
+		 * https://eslint.org/docs/rules
 		 */
 		"block-spacing": "error",
 		"camelcase": "error",
@@ -189,7 +185,7 @@ module.exports = {
 		/**
 		 * ECMAScript 6
 		 *
-		 * https://eslint.org/docs/rules/<RULE_NAME>
+		 * https://eslint.org/docs/rules
 		 */
 		"arrow-parens": ["error", "as-needed"],
 		"arrow-spacing": "error",
@@ -244,7 +240,7 @@ module.exports = {
 		/**
 		 * Plugins - Import
 		 *
-		 * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/<RULE_NAME>.md
+		 * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules
 		 */
 		"import/first": "error",
 		"import/exports-last": "error",
@@ -253,7 +249,7 @@ module.exports = {
 		/**
 		 * Plugins - SonarJs
 		 *
-		 * https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/<RULE_NAME>.md
+		 * https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules
 		 */
 		"sonarjs/no-all-duplicated-branches": "error",
 		"sonarjs/no-element-overwrite": "error",
@@ -282,7 +278,7 @@ module.exports = {
 		/**
 		 * Plugins - Prefer Arrow Function
 		 *
-		 * https://github.com/TristonJ/eslint-plugin-prefer-arrow/blob/master/lib/rules/<RULE_NAME>.js
+		 * https://github.com/TristonJ/eslint-plugin-prefer-arrow/blob/master/lib/rules
 		 */
 		"prefer-arrow/prefer-arrow-functions": [
 			"error",
