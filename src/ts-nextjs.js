@@ -3,7 +3,7 @@ module.exports = {
 	extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"],
 	overrides: [
 		{
-			files: ["_*.{jsx,tsx}"],
+			files: ["src/pages/**/*.tsx"],
 			rules: {
 				/**
 				 * Plugins - Import
@@ -11,6 +11,21 @@ module.exports = {
 				 * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules
 				 */
 				"import/no-default-export": "off",
+			},
+		},
+		{
+			files: ["src/config/**/*.ts", "src/assets/**/*.ts"],
+			rules: {
+				/**
+				 * TypeScript
+				 */
+				"@typescript-eslint/naming-convention": [
+					"error",
+					{
+						selector: "variableLike",
+						format: ["UPPER_CASE"],
+					},
+				],
 			},
 		},
 	],
