@@ -1,9 +1,20 @@
 module.exports = {
 	plugins: ["@typescript-eslint/eslint-plugin"],
 	extends: "plugin:@typescript-eslint/recommended",
-	env: {
-		node: true,
-	},
+	overrides: [
+		{
+			files: ["**/config/*.ts"],
+			rules: {
+				"@typescript-eslint/naming-convention": [
+					"error",
+					{
+						selector: "variableLike",
+						format: ["UPPER_CASE"],
+					},
+				],
+			},
+		},
+	],
 	rules: {
 		/**
 		 * Plugins - @typescript-eslint

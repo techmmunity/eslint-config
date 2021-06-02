@@ -3,9 +3,7 @@
 		"sourceType": "module",
 		"ecmaVersion": 2018
 	},
-	"env": {
-		"node": true
-	},
+	"root": true,
 	"extends": "./src/common",
 	"ignorePatterns": ["doc/"]
 }
