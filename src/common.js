@@ -8,7 +8,6 @@ module.exports = {
 			files: ["**/migrations/*.{js,ts}"],
 			rules: {
 				"filenames/match-regex": "off",
-				"class-methods-use-this": "off",
 			},
 		},
 	],
@@ -43,7 +42,6 @@ module.exports = {
 			},
 		],
 		"array-callback-return": "error",
-		"class-methods-use-this": "error",
 		"default-case": "error",
 		"default-case-last": "error",
 		"default-param-last": "error",
@@ -147,12 +145,6 @@ module.exports = {
 		"no-negated-condition": "error",
 		"no-nested-ternary": "error",
 		"no-new-object": "error",
-		"no-plusplus": [
-			"error",
-			{
-				allowForLoopAfterthoughts: true,
-			},
-		],
 		"no-trailing-spaces": "error",
 		"no-underscore-dangle": "error",
 		"no-unneeded-ternary": "error",

@@ -62,6 +62,7 @@ module.exports = {
 			{
 				selector: "variableLike",
 				format: ["strictCamelCase", "UPPER_CASE"],
+				leadingUnderscore: "allow",
 			},
 			{
 				selector: "typeLike",
