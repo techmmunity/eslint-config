@@ -3,6 +3,15 @@
 module.exports = {
 	plugins: ["import", "sonarjs", "filenames", "prefer-arrow", "prettier"],
 	extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
+	overrides: [
+		{
+			files: ["**/migrations/*.{js,ts}"],
+			rules: {
+				"filenames/match-regex": "off",
+				"class-methods-use-this": "off",
+			},
+		},
+	],
 	env: {
 		browser: true,
 		es2021: true,

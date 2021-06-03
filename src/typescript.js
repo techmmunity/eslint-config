@@ -14,6 +14,12 @@ module.exports = {
 				],
 			},
 		},
+		{
+			files: ["**/migrations/*.{js,ts}"],
+			rules: {
+				"@typescript-eslint/quotes": "off",
+			},
+		},
 	],
 	rules: {
 		/**
@@ -71,7 +77,6 @@ module.exports = {
 		"@typescript-eslint/prefer-enum-initializers": "error",
 		"@typescript-eslint/prefer-includes": "error",
 		"@typescript-eslint/prefer-literal-enum-member": "error",
-		"@typescript-eslint/prefer-nullish-coalescing": "error",
 		"@typescript-eslint/prefer-optional-chain": "error",
 		"@typescript-eslint/prefer-readonly": "error",
 		"@typescript-eslint/prefer-reduce-type-parameter": "error",
