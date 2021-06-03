@@ -28,6 +28,19 @@ module.exports = {
 				],
 			},
 		},
+		{
+			files: ["_document.tsx"],
+			rules: {
+				/**
+				 * ESLint
+				 */
+				"eslint-disable-next-line no-underscore-dangle": "off",
+				/**
+				 * TypeScript
+				 */
+				"@typescript-eslint/naming-convention": "off",
+			},
+		},
 	],
 	rules: {
 		/**
