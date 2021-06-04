@@ -45,11 +45,11 @@ module.exports = {
 			"error",
 			{
 				selector: "default",
-				format: ["strictCamelCase"],
+				format: ["camelCase"],
 			},
 			{
 				selector: "enum",
-				format: ["StrictPascalCase"],
+				format: ["PascalCase"],
 				custom: {
 					regex: "Enum$",
 					match: true,
@@ -61,12 +61,12 @@ module.exports = {
 			},
 			{
 				selector: "variableLike",
-				format: ["strictCamelCase", "UPPER_CASE"],
+				format: ["camelCase", "UPPER_CASE"],
 				leadingUnderscore: "allow",
 			},
 			{
 				selector: "typeLike",
-				format: ["StrictPascalCase"],
+				format: ["PascalCase"],
 			},
 		],
 		"@typescript-eslint/no-base-to-string": "error",

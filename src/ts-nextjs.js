@@ -50,11 +50,11 @@ module.exports = {
 			"error",
 			{
 				selector: "default",
-				format: ["strictCamelCase"],
+				format: ["camelCase"],
 			},
 			{
 				selector: "enum",
-				format: ["StrictPascalCase"],
+				format: ["PascalCase"],
 				custom: {
 					regex: "Enum$",
 					match: true,
@@ -66,11 +66,11 @@ module.exports = {
 			},
 			{
 				selector: "variableLike",
-				format: ["strictCamelCase", "StrictPascalCase", "UPPER_CASE"],
+				format: ["camelCase", "PascalCase", "UPPER_CASE"],
 			},
 			{
 				selector: "typeLike",
-				format: ["StrictPascalCase"],
+				format: ["PascalCase"],
 			},
 		],
 		/**
