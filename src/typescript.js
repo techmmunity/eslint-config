@@ -20,6 +20,12 @@ module.exports = {
 				"@typescript-eslint/quotes": "off",
 			},
 		},
+		{
+			files: ["**/*.d.ts"],
+			rules: {
+				"multiline-comment-style": "off",
+			},
+		},
 	],
 	rules: {
 		/**
