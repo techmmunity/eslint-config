@@ -29,12 +29,12 @@ module.exports = {
 			},
 		},
 		{
-			files: ["_document.tsx"],
+			files: ["**/_document.tsx"],
 			rules: {
 				/**
 				 * ESLint
 				 */
-				"eslint-disable-next-line no-underscore-dangle": "off",
+				"no-underscore-dangle": "off",
 				/**
 				 * TypeScript
 				 */
