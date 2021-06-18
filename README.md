@@ -1,18 +1,16 @@
-# Techmmunity ESLint StyleGuide
+# Techmmunity Style Guide
 
-In this package, you can find the **Techmmunity StyleGuide**.
-
-We try to keep a clean and consistent code style, with modern features and using best practices.
+In this package, you can find the **Techmmunity Style Guide**. We try to keep a clean and consistent code style, with modern features and using best practices.
 
 [![Discord Badge](https://img.shields.io/badge/join%20our%20community-7289DA?style=for-the-badge&labelColor=7289DA&logo=discord&logoColor=white)](https://discord.gg/qCJXz6P4qw)
 
 ## Why use this config?
 
 - **Best practices** focused in modern features
-- **Ready-to-go**: You don't need any extra config
-- **Bye bye prettier**: You don't need (or should) to be using the prettier extension for VSCode if you have this baby on your project
-- **Direct support**: Join our discord community and get your questions answered
 - **Constant** maintenance
+- **Ready-to-go**: You don't need any extra config
+- **Bye bye prettier**: You don't need to be using the prettier extension for VSCode if you have this baby on your project
+- **Direct support**: Join our discord community and get your questions answered
 
 ## Modules
 
@@ -187,6 +185,10 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 ```
 
 </details>
+
+## Need more examples?
+
+We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our discord community](https://discord.gg/qCJXz6P4qw) and make some questions!
 
 ## Extra - VSCode Tips & Tricks
 
