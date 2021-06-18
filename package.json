@@ -1,9 +1,9 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "1.3.6",
+	"version": "1.3.7",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
-	"description": "Techmmunity Custom ESLint Config",
+	"description": "Techmmunity Style Guide",
 	"homepage": "https://github.com/techmmunity/eslint-config#readme",
 	"bugs": {
 		"url": "https://github.com/techmmunity/eslint-config/issues"
@@ -57,11 +57,10 @@
 		"eslint-plugin-react-hooks": "^4.2.0",
 		"eslint-plugin-sonarjs": "^0.7.1-117",
 		"husky": "^6.0.0",
-		"lint-staged": "^11.0.0",
 		"prettier": "^2.3.0"
 	},
 	"scripts": {
 		"build": "./scripts/build.sh",
-		"husky:pre-commit": "lint-staged"
+		"husky:pre-commit": "eslint ."
 	}
 }

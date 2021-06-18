@@ -23,13 +23,13 @@
 
 	// Make VSCode understand this files as files of this languages
 	"files.associations": {
-    ".prettierignore": "ignore",
-    ".lintstagedrc": "json",
-    ".env.*": "env"
-  },
-  "material-icon-theme.languages.associations": {
-    "env": "tune"
-  },
+		".prettierignore": "ignore",
+		".lintstagedrc": "json",
+		".env.*": "env"
+	},
+	"material-icon-theme.languages.associations": {
+		"env": "tune"
+	},
 
 	// ================ Languages General Config ====================
 
@@ -88,5 +88,15 @@
 	// TODO Tree
 	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
 	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "[ ]"],
-	"todo-tree.tree.showScanModeButton": false
+	"todo-tree.tree.showScanModeButton": false,
+
+	// Code Spell Checker
+	"cSpell.words": [
+		"techmmunity",
+		"nextjs",
+		"sonarjs",
+		"dbaeumer",
+		"eslintconfig",
+		"styleguide"
+	]
 }
