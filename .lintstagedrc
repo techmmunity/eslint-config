@@ -1,3 +1,0 @@
-{
-	"*.ts": ["npx prettier --write src", "eslint src/**/*.js --fix-dry-run"]
-}
