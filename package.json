@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "1.4.0",
+	"version": "2.0.0",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
@@ -17,6 +17,10 @@
 		"eslintconfig",
 		"techmmunity",
 		"jest",
+		"best-practices",
+		"clean-code",
+		"solid",
+		"kiss",
 		"typescript",
 		"code-style",
 		"config",
