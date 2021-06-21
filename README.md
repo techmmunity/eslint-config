@@ -38,7 +38,6 @@ As the ESLint plugins are loaded from the user's project and not from the packag
 yarn add -D @techmmunity/eslint-config \
 	eslint \
 	prettier \
-	eslint-config-prettier \
 	eslint-plugin-import \
 	eslint-plugin-sonarjs \
 	eslint-plugin-filenames \
