@@ -1,7 +1,14 @@
 /* eslint-disable no-magic-numbers */
 
 module.exports = {
-	plugins: ["import", "sonarjs", "filenames", "prefer-arrow", "prettier"],
+	plugins: [
+		"import",
+		"import-helpers",
+		"sonarjs",
+		"filenames",
+		"prefer-arrow",
+		"prettier",
+	],
 	extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
 	overrides: [
 		{
@@ -287,6 +294,17 @@ module.exports = {
 				disallowPrototype: true,
 				singleReturnOnly: false,
 				classPropertiesAllowed: false,
+			},
+		],
+		/**
+		 * Plugins - Import Helpers
+		 *
+		 * https://github.com/Tibfib/eslint-plugin-import-helpers#readme
+		 */
+		"import-helpers/order-imports": [
+			"warn",
+			{
+				groups: ["module", ["parent", "sibling", "index"]],
 			},
 		],
 	},

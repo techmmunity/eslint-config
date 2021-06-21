@@ -39,6 +39,7 @@ yarn add -D @techmmunity/eslint-config \
 	eslint \
 	prettier \
 	eslint-plugin-import \
+	eslint-plugin-import-helpers \
 	eslint-plugin-sonarjs \
 	eslint-plugin-filenames \
 	eslint-plugin-prefer-arrow \
