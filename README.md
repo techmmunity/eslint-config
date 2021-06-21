@@ -1,5 +1,8 @@
 # Techmmunity Style Guide
 
+[![npm](https://img.shields.io/npm/v/@techmmunity/eslint-config.svg?color=CC3534)](https://www.npmjs.com/package/@techmmunity/eslint-config)
+[![Downloads](https://img.shields.io/npm/dw/@techmmunity/eslint-config.svg)](https://www.npmjs.com/package/@techmmunity/eslint-config)
+
 In this package, you can find the **Techmmunity Style Guide**. We try to keep a clean and consistent code style, with modern features and using best practices.
 
 [![Discord Badge](https://img.shields.io/badge/join%20our%20community-7289DA?style=for-the-badge&labelColor=7289DA&logo=discord&logoColor=white)](https://discord.gg/qCJXz6P4qw)
