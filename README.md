@@ -6,11 +6,11 @@ In this package, you can find the **Techmmunity Style Guide**. We try to keep a 
 
 ## Why use this config?
 
-- **Best practices** focused in modern features
-- **Constant** maintenance
-- **Ready-to-go**: You don't need any extra config
-- **Bye bye prettier**: You don't need to be using the prettier extension for VSCode if you have this baby on your project
-- **Direct support**: Join our discord community and get your questions answered
+- Best practices focused in modern features and principles (SOLID, KISS, Clean Code)
+- Constant maintenance
+- Ready-to-go: You don't need any extra config
+- Bye bye prettier: You don't need to be using the prettier extension for VSCode if you have this baby on your project
+- Direct support: Join our discord community and get your questions answered
 
 ## Modules
 
@@ -69,7 +69,7 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 
 Specific configs to projects that uses Jest.
 
-### Depends on
+#### Depends on
 
 - Common Module
 
@@ -102,14 +102,49 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 
 <details>
 
-<summary><strong>TS-NextJs</strong></summary>
+<summary><strong>NextJs</strong></summary>
 
-Specific configs to projects that uses TSX, like React ou NextJs projects.
+Specific configs to projects that uses NextJs.
 
-### Depends on
+#### Depends on
 
 - Common Module
-- TypeScript Module
+- React Module
+
+#### Install
+
+> Doesn't use any additional packages
+
+#### Usage
+
+Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
+
+```json
+{
+	"root": true,
+	"extends": [
+		"@techmmunity/eslint-config/common", // The common module always should be the first!
+		"@techmmunity/eslint-config/react", // You must extend the react module too!
+		"@techmmunity/eslint-config/nextjs"
+	]
+}
+```
+
+</details>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+<details>
+
+<summary><strong>React</strong></summary>
+
+Specific configs to projects that uses React.
+
+#### Depends on
+
+- Common Module
 
 #### Install
 
@@ -117,6 +152,44 @@ Specific configs to projects that uses TSX, like React ou NextJs projects.
 yarn add -D eslint-plugin-react \
 	eslint-plugin-react-hooks
 ```
+
+#### Usage
+
+Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
+
+```json
+{
+	"root": true,
+	"extends": [
+		"@techmmunity/eslint-config/common", // The common module always should be the first!
+		"@techmmunity/eslint-config/react"
+	]
+}
+```
+
+</details>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+<details>
+
+<summary><strong>TS-NextJs</strong></summary>
+
+Specific configs to projects that uses NextJs with TypeScript.
+
+#### Depends on
+
+- Common Module
+- React Module
+- NextJs Module
+- TS-React Module
+- TypeScript Module
+
+#### Install
+
+> Doesn't use any additional packages
 
 #### Usage
 
@@ -136,8 +209,58 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 	},
 	"extends": [
 		"@techmmunity/eslint-config/common", // The common module always should be the first!
-		"@techmmunity/eslint-config/typescript" // You must import the typescript module too, before the tsx module!
+		"@techmmunity/eslint-config/react", // You must extend the react module too!
+		"@techmmunity/eslint-config/nextjs", // You must extend the nextjs module too!
+		"@techmmunity/eslint-config/typescript", // You must extend the typescript module too!
+		"@techmmunity/eslint-config/ts-react", // You must extend the react module too!
 		"@techmmunity/eslint-config/ts-nextjs"
+	]
+}
+```
+
+</details>
+
+<!--  -->
+<!--  -->
+<!--  -->
+
+<details>
+
+<summary><strong>TS-React</strong></summary>
+
+Specific configs to projects that uses React with TypeScript.
+
+#### Depends on
+
+- Common Module
+- React Module
+- TypeScript Module
+
+#### Install
+
+> Doesn't use any additional packages
+
+#### Usage
+
+Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
+
+```json
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"project": "tsconfig.json",
+		"sourceType": "module"
+	},
+	"extends": [
+		"@techmmunity/eslint-config/common", // The common module always should be the first!
+		"@techmmunity/eslint-config/react", // You must extend the react module too!
+		"@techmmunity/eslint-config/typescript", // You must extend the typescript module too!
+		"@techmmunity/eslint-config/ts-react"
 	]
 }
 ```
@@ -154,7 +277,7 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 
 Specific configs for typescript projects.
 
-### Depends on
+#### Depends on
 
 - Common Module
 
@@ -185,6 +308,22 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 ```
 
 </details>
+
+## WARNINGS
+
+### Working with TypeScript
+
+If you work with typescript, you will face the error `Parsing error: "parserOptions.project" has been set for @typescript-eslint/parser.` in some files. Fix it is very simple: **You need to include these files in the "include" of tsconfig.json file**
+
+Example:
+
+```json
+// tsconfig.json
+
+{
+	"includes": ["next.config.js"]
+}
+```
 
 ## Need more examples?
 
