@@ -1,6 +1,17 @@
 module.exports = {
 	overrides: [
 		{
+			files: ["pages/**/*.{js,jsx,ts,tsx}", "src/pages/**/*.{js,jsx,ts,tsx}"],
+			rules: {
+				/**
+				 * Plugins - filename
+				 *
+				 * https://github.com/selaux/eslint-plugin-filenames#rules
+				 */
+				"filenames/match-regex": ["error", "^_?[a-zA-Z0-9-.@[\\]]+$", true],
+			},
+		},
+		{
 			files: ["src/pages/**/*.tsx"],
 			rules: {
 				/**
