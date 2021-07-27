@@ -39,5 +39,9 @@ module.exports = {
 		 * https://github.com/selaux/eslint-plugin-filenames#rules
 		 */
 		"filenames/match-regex": ["error", "^_?[a-zA-Z0-9-.@]+$", true],
+		/**
+		 * React
+		 */
+		"react/react-in-jsx-scope": "off",
 	},
 };
