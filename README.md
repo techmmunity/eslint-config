@@ -116,7 +116,9 @@ Specific configs to projects that uses NextJs.
 
 #### Install
 
-> Doesn't use any additional packages
+```sh
+yarn add -D @next/eslint-plugin-next
+```
 
 #### Usage
 

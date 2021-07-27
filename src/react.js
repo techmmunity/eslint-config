@@ -4,6 +4,8 @@ module.exports = {
 	rules: {
 		/**
 		 * React
+		 *
+		 * https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
 		 */
 		"react/display-name": "off",
 		"react/jsx-uses-react": "warn",

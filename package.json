@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "2.1.0",
+	"version": "3.0.0",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
@@ -30,6 +30,7 @@
 		"nextjs"
 	],
 	"peerDependencies": {
+		"@next/eslint-plugin-next": "^11.0.1",
 		"@typescript-eslint/eslint-plugin": "^4.25.0",
 		"eslint": "^7.27.0",
 		"eslint-plugin-filenames": "^1.3.2",
@@ -50,6 +51,7 @@
 		"eslint-config-standard": "^16.0.3"
 	},
 	"devDependencies": {
+		"@next/eslint-plugin-next": "^11.0.1",
 		"@typescript-eslint/eslint-plugin": "^4.25.0",
 		"eslint": "^7.27.0",
 		"eslint-plugin-filenames": "^1.3.2",
