@@ -8,7 +8,7 @@ module.exports = {
 		"react/display-name": "off",
 		"react/jsx-uses-react": "warn",
 		"react/prop-types": "off",
-		"react/react-in-jsx-scope": "off",
+		"react/react-in-jsx-scope": "error",
 		"react/boolean-prop-naming": "error",
 		"react/destructuring-assignment": ["error", "always"],
 		"react/function-component-definition": [
