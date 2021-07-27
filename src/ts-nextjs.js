@@ -1,7 +1,7 @@
 module.exports = {
 	overrides: [
 		{
-			files: ["src/config/**/*.ts", "src/assets/**/*.ts"],
+			files: ["src/config/**/*.ts", "src/configs/**/.ts", "src/assets/**/*.ts"],
 			rules: {
 				/**
 				 * TypeScript
