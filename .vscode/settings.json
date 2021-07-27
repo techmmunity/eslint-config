@@ -97,6 +97,8 @@
 		"sonarjs",
 		"dbaeumer",
 		"eslintconfig",
-		"styleguide"
+		"styleguide",
+		"passhref",
+		"polyfillio"
 	]
 }
