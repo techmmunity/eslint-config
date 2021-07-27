@@ -1,7 +1,12 @@
 module.exports = {
 	overrides: [
 		{
-			files: ["src/config/**/*.ts", "src/assets/**/*.ts"],
+			files: [
+				"src/config/**/*.ts",
+				"src/configs/**/*.ts",
+				"src/asset/**/*.ts",
+				"src/assets/**/*.ts",
+			],
 			rules: {
 				/**
 				 * TypeScript
@@ -16,13 +21,9 @@ module.exports = {
 			},
 		},
 		{
-			files: ["**/_document.tsx"],
+			files: ["pages/_document.tsx", "src/pages/_document.tsx"],
 			rules: {
-				/**
-				 * ESLint
-				 */
-				"no-underscore-dangle": "off",
-				/**
+				/*
 				 * TypeScript
 				 */
 				"@typescript-eslint/naming-convention": "off",
