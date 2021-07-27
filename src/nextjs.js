@@ -9,11 +9,6 @@ module.exports = {
 				 * https://github.com/selaux/eslint-plugin-filenames#rules
 				 */
 				"filenames/match-regex": ["error", "^_?[a-zA-Z0-9-.@[\\]]+$", true],
-			},
-		},
-		{
-			files: ["src/pages/**/*.tsx"],
-			rules: {
 				/**
 				 * Plugins - Import
 				 *
@@ -23,7 +18,10 @@ module.exports = {
 			},
 		},
 		{
-			files: ["**/_document.tsx"],
+			files: [
+				"pages/_document.{js,jsx,tsx}",
+				"src/pages/_document.{js,jsx,tsx}",
+			],
 			rules: {
 				/**
 				 * ESLint
