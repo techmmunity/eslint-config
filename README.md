@@ -355,3 +355,14 @@ We provide an [example repository](https://github.com/techmmunity/eslint-config/
 	"source.fixAll.eslint": true
 },
 ```
+
+## Contribution
+
+To test this package:
+
+1. If you are testing and making chances, you may need run `yarn unlink`, but for your first time, you can ignore this
+2. Run `yarn lk`
+3. Go to a big project and run `yarn link @techmmunity/eslint-config`
+4. And it's done! Just give a look at the project and see if everything is working like you want.
+
+**Tip:** You can use `npx eslint .` to lint the project automatically
