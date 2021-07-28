@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
@@ -69,6 +69,7 @@
 	},
 	"scripts": {
 		"build": "./scripts/build.sh",
-		"husky:pre-commit": "eslint ."
+		"husky:pre-commit": "eslint .",
+		"lk": "yarn build && cd dist && yarn link && cd .."
 	}
 }
