@@ -35,7 +35,6 @@
 
 	// TypeScript
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"typescript.tsserver.log": "verbose",
 	"typescript.suggest.autoImports": true,
 	// JavaScript
 	"javascript.updateImportsOnFileMove.enabled": "always",
