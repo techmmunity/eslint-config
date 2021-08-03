@@ -38,7 +38,7 @@ module.exports = {
 		"no-useless-backreference": "error",
 		"require-atomic-updates": "error",
 		/**
-		 * Best Praticies
+		 * Best Practices
 		 *
 		 * https://eslint.org/docs/rules
 		 */
@@ -153,7 +153,6 @@ module.exports = {
 		"no-nested-ternary": "error",
 		"no-new-object": "error",
 		"no-trailing-spaces": "error",
-		"no-underscore-dangle": "error",
 		"no-unneeded-ternary": "error",
 		"no-whitespace-before-property": "error",
 		"nonblock-statement-body-position": "error",
