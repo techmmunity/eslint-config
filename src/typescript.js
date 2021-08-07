@@ -86,7 +86,6 @@ module.exports = {
 		"@typescript-eslint/prefer-literal-enum-member": "error",
 		"@typescript-eslint/prefer-optional-chain": "error",
 		"@typescript-eslint/prefer-readonly": "error",
-		"@typescript-eslint/prefer-reduce-type-parameter": "error",
 		"@typescript-eslint/prefer-string-starts-ends-with": "error",
 		"@typescript-eslint/sort-type-union-intersection-members": "error",
 		"@typescript-eslint/switch-exhaustiveness-check": "error",
