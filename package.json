@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "3.2.0",
+	"version": "3.3.0",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
