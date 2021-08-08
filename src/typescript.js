@@ -52,6 +52,7 @@ module.exports = {
 			{
 				selector: "default",
 				format: ["camelCase"],
+				leadingUnderscore: "allow",
 			},
 			{
 				selector: "enum",
