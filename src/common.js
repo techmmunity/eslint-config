@@ -17,6 +17,12 @@ module.exports = {
 				"filenames/match-regex": "off",
 			},
 		},
+		{
+			files: ["**/*.spec.js", "**/*.test.js"],
+			rules: {
+				"no-magic-numbers": "off",
+			},
+		},
 	],
 	env: {
 		browser: true,
@@ -72,6 +78,7 @@ module.exports = {
 		"no-iterator": "error",
 		"no-labels": "error",
 		"no-lone-blocks": "error",
+		"no-magic-numbers": "error",
 		"no-multi-spaces": "error",
 		"no-new": "error",
 		"no-new-func": "error",
