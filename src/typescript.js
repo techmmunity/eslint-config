@@ -26,6 +26,12 @@ module.exports = {
 				"multiline-comment-style": "off",
 			},
 		},
+		{
+			files: ["**/*.spec.ts", "**/*.test.ts"],
+			rules: {
+				"@typescript-eslint/no-magic-numbers": "off",
+			},
+		},
 	],
 	rules: {
 		/**
@@ -117,6 +123,8 @@ module.exports = {
 		"@typescript-eslint/no-invalid-this": "error",
 		"no-loss-of-precision": "off",
 		"@typescript-eslint/no-loss-of-precision": "error",
+		"no-magic-numbers": "off",
+		"@typescript-eslint/no-magic-numbers": "error",
 		"no-redeclare": "off",
 		"@typescript-eslint/no-redeclare": "error",
 		"no-shadow": "off",
