@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "3.3.1",
+	"version": "3.3.2",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
@@ -27,7 +27,9 @@
 		"config",
 		"styleguide",
 		"react",
-		"nextjs"
+		"nextjs",
+		"prettier",
+		"tslint"
 	],
 	"peerDependencies": {
 		"@next/eslint-plugin-next": "^11.0.1",
