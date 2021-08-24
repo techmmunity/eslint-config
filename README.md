@@ -1,6 +1,6 @@
 # Techmmunity Style Guide
 
-[![Style Guide](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=flat)](https://github.com/techmmunity/eslint-config)
+[![Style Guide: Techmmunity](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=flat)](https://github.com/techmmunity/eslint-config)
 [![npm](https://img.shields.io/npm/v/@techmmunity/eslint-config.svg?color=CC3534)](https://www.npmjs.com/package/@techmmunity/eslint-config)
 [![Downloads](https://img.shields.io/npm/dw/@techmmunity/eslint-config.svg)](https://www.npmjs.com/package/@techmmunity/eslint-config)
 
@@ -13,25 +13,25 @@ In this package, you can find the **Techmmunity Style Guide**. We try to keep a 
 [![plastic](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=plastic)](https://github.com/techmmunity/eslint-config)
 
 ```md
-[![Style Guide](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=plastic)](https://github.com/techmmunity/eslint-config)
+[![Style Guide: Techmmunity](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=plastic)](https://github.com/techmmunity/eslint-config)
 ```
 
 [![flat](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=flat)](https://github.com/techmmunity/eslint-config)
 
 ```md
-[![Style Guide](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=flat)](https://github.com/techmmunity/eslint-config)
+[![Style Guide: Techmmunity](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=flat)](https://github.com/techmmunity/eslint-config)
 ```
 
 [![square](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=square)](https://github.com/techmmunity/eslint-config)
 
 ```md
-[![Style Guide](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=square)](https://github.com/techmmunity/eslint-config)
+[![Style Guide: Techmmunity](https://img.shields.io/badge/style%20guide-Techmmunity-01d2ce?style=square)](https://github.com/techmmunity/eslint-config)
 ```
 
 [![for-the-badge](https://img.shields.io/badge/style%20guide-TECHMMUNITY-01d2ce?style=for-the-badge)](https://github.com/techmmunity/eslint-config)
 
 ```md
-[![Style Guide](https://img.shields.io/badge/style%20guide-TECHMMUNITY-01d2ce?style=for-the-badge)](https://github.com/techmmunity/eslint-config)
+[![Style Guide: Techmmunity](https://img.shields.io/badge/style%20guide-TECHMMUNITY-01d2ce?style=for-the-badge)](https://github.com/techmmunity/eslint-config)
 ```
 
 ## Why use this config?
