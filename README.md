@@ -383,6 +383,31 @@ We provide an [example repository](https://github.com/techmmunity/eslint-config/
 },
 ```
 
+#### Problems with Prettier
+
+If you are using the VSCode Prettier Extension, you need to disable it, because this package already configs the prettier and uses it under the hood.
+
+To disable Prettier, you just need to add this to your vscode configs:
+
+```json
+{
+	"[javascript]": {
+		"editor.defaultFormatter": null
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": null
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": null
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": null
+	}
+}
+```
+
+You can access this configs by pressing `Ctrl + Shift + P` and tipping `Preferences: Open Settings (JSON)`.
+
 ## Contribution
 
 To test this package:
