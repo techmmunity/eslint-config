@@ -357,33 +357,7 @@ Example:
 }
 ```
 
-## Need more examples?
-
-We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our discord community](https://discord.gg/qCJXz6P4qw) and make some questions!
-
-## Extra - VSCode Tips & Tricks
-
-#### See the errors and warnings
-
-- Use `Ctrl + Shift + X`
-- Search for `dbaeumer.vscode-eslint`
-- Install the extension
-
-#### Auto fix issues
-
-- Use `Ctrl + Shift + P`
-- Search for `Preferences: Open Settings (JSON)`
-- Click in it
-- Add this to the JSON:
-
-```json
-// Make ESLint fix all the things that he can on save (like prettier formatting)
-"editor.codeActionsOnSave": {
-	"source.fixAll.eslint": true
-},
-```
-
-#### Problems with Prettier
+### Problems with Prettier
 
 If you are using the VSCode Prettier Extension, you need to disable it, because this package already configs the prettier and uses it under the hood.
 
@@ -407,6 +381,32 @@ To disable Prettier, you just need to add this to your vscode configs:
 ```
 
 You can access this configs by pressing `Ctrl + Shift + P` and tipping `Preferences: Open Settings (JSON)`.
+
+## Need more examples?
+
+We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our discord community](https://discord.gg/qCJXz6P4qw) and make some questions!
+
+## Extra - VSCode Tips & Tricks
+
+### See the errors and warnings
+
+- Use `Ctrl + Shift + X`
+- Search for `dbaeumer.vscode-eslint`
+- Install the extension
+
+### Auto fix issues
+
+- Use `Ctrl + Shift + P`
+- Search for `Preferences: Open Settings (JSON)`
+- Click in it
+- Add this to the JSON:
+
+```json
+// Make ESLint fix all the things that he can on save (like prettier formatting)
+"editor.codeActionsOnSave": {
+	"source.fixAll.eslint": true
+},
+```
 
 ## Contribution
 
