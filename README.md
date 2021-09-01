@@ -6,7 +6,7 @@
 
 In this package, you can find the **Techmmunity Style Guide**. We try to keep a clean and consistent code style, with modern features and using best practices.
 
-[![Discord Badge](https://img.shields.io/badge/join%20our%20community-7289DA?style=for-the-badge&labelColor=7289DA&logo=discord&logoColor=white)](https://discord.gg/qCJXz6P4qw)
+[![Guilded Badge](https://img.shields.io/badge/join%20our%20community-F5C400?style=for-the-badge&labelColor=F5C400&logo=guilded&logoColor=black)](https://guilded.gg/techmmunity)
 
 ## Badges
 
