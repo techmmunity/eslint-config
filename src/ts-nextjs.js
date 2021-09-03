@@ -31,6 +31,12 @@ module.exports = {
 				 * TypeScript
 				 */
 				"@typescript-eslint/naming-convention": "off",
+				/**
+				 * Plugins - NextJs
+				 *
+				 * https://nextjs.org/docs/basic-features/eslint#eslint-plugin
+				 */
+				"@next/next/no-document-import-in-page": "off",
 			},
 		},
 	],
