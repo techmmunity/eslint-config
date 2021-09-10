@@ -24,10 +24,6 @@ module.exports = {
 			files: ["pages/_document.tsx", "src/pages/_document.tsx"],
 			rules: {
 				/**
-				 * ESLint
-				 */
-				"no-underscore-dangle": "off",
-				/**
 				 * TypeScript
 				 */
 				"@typescript-eslint/naming-convention": "off",
