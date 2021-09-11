@@ -1,8 +1,6 @@
 <div align="center">
-	<img src="https://github.com/techmmunity/eslint-config/raw/master/resources/logo.gif" width="300" height="300">
-</div>
 
-<div align="center">
+<img src="https://github.com/techmmunity/eslint-config/raw/master/resources/logo.gif" width="300" height="300">
 
 # Techmmunity - Style Guide
 
@@ -48,7 +46,7 @@ In this package, you can find the **Techmmunity Style Guide**. We try to keep a 
 - Constant maintenance
 - Ready-to-go: You don't need any extra config
 - Bye bye prettier: You don't need to be using the prettier extension for VSCode if you have this baby on your project
-- Direct support: Join our discord community and get your questions answered
+- Direct support: Join our guilded community and get your questions answered
 
 ## Install
 
@@ -80,7 +78,7 @@ This repository contains the best practices divided by libs, frameworks and tool
 
 The common module is the default rules used by every javascript project. It doesn't contains any special config for frameworks, backend, frontend or npm package. **You must import this module if you want to use any of the other modules of this package.**
 
-**Tip:** You can see an example project [here](https://github.com/techmmunity/eslint-config/blob/master/doc/example-project-common)
+**Tip:** You can see an example project [here](https://github.com/techmmunity/eslint-config/blob/master/docs/examples/common)
 
 #### Usage
 
