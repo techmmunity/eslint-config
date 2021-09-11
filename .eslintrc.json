@@ -1,8 +1,4 @@
 {
-	"parserOptions": {
-		"sourceType": "module",
-		"ecmaVersion": 2018
-	},
 	"root": true,
 	"extends": "./src/common",
 	"ignorePatterns": ["doc/"]
