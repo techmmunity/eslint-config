@@ -233,10 +233,6 @@ Create an `.eslintrc.json` file in the root folder of your package and add this 
 
 Specific configs for typescript projects.
 
-#### Depends on
-
-- Common Module
-
 #### Usage
 
 Create an `.eslintrc.json` file in the root folder of your package and add this content to it:
