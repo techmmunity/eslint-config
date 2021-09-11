@@ -7,16 +7,14 @@
 Please check if your PR fulfills the following requirements:
 
 - [ ] I have followed GitFlow pattern to create the branch
-- [ ] I have added all the `peerDependencies` needed as `devDependencies` too
-- [ ] I have added the new `peerDependecies` to the installation docs
-- [ ] I have tested the updates and it works
+- [ ] I have added all the plugins and configs as `dependencies`
+- [ ] I have tested the updates using `yarn lk`, `yarn link @techmmunity/eslint-config` and checking in another project if it works
 
 ## PR Type
 
 What kind of change does this PR introduce?
 
 ```
-[ ] Hotfix
 [ ] Bugfix
 [ ] Feature
 [ ] Documentation update

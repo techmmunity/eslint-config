@@ -98,6 +98,8 @@
 		"eslintconfig",
 		"styleguide",
 		"passhref",
-		"polyfillio"
+		"polyfillio",
+		"rushstack",
+		"Guilded"
 	]
 }
