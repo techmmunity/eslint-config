@@ -1,6 +1,6 @@
 ## What this PR introduces?
 
-<!-- Please, includes adescription of this pull request -->
+<!-- Please, includes a description of this pull request -->
 
 ## PR Checklist
 
