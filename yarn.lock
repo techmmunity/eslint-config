@@ -246,10 +246,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@next/eslint-plugin-next@^11.1.2":
-  version "11.1.2"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.1.2.tgz#f26cf90bcb6cd2e4645e2ba253bbc9aaaa43a170"
-  integrity sha512-cN+ojHRsufr9Yz0rtvjv8WI5En0RPZRJnt0y16Ha7DD+0n473evz8i1ETEJHmOLeR7iPJR0zxRrxeTN/bJMOjg==
+"@next/eslint-plugin-next@11.1.3-canary.23":
+  version "11.1.3-canary.23"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-11.1.3-canary.23.tgz#da417cbd55f6039e83efcbe1191fe3bf1b491a02"
+  integrity sha512-TuxpsGzWVV7RZD5DfKQAgodo6D9qUVbIsibRHssoQw8BYAgRKny2mi8Qg7Hju3jK4fy4S4ZTB1X8LHzLPoCeEQ==
   dependencies:
     glob "7.1.7"
 
