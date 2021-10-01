@@ -20,6 +20,7 @@ What kind of change does this PR introduce?
 [ ] Documentation update
 [ ] Code style update (formatting, local variables)
 [ ] Refactoring (no functional changes, no api changes)
+[ ] Dependencies update
 [ ] CI/CD related changes
 ```
 

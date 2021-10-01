@@ -306,7 +306,7 @@ You can access this configs by pressing `Ctrl + Shift + P` and tipping `Preferen
 
 ## Need more examples?
 
-We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our discord community](https://discord.gg/qCJXz6P4qw) and make some questions!
+We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our guilded community](https://guilded.gg/techmmunity) and make some questions!
 
 ## Extra - VSCode Tips & Tricks
 
