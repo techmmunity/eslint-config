@@ -16,7 +16,7 @@ module.exports = {
 		 *
 		 * https://github.com/jest-community/eslint-plugin-jest/tree/main/docs/rules
 		 */
-		"jest/lowercase-name": [
+		"jest/prefer-lowercase-title": [
 			"error",
 			{
 				ignore: ["describe"],
@@ -28,8 +28,7 @@ module.exports = {
 		"jest/no-test-return-statement": "error",
 		"jest/prefer-hooks-on-top": "error",
 		"jest/prefer-strict-equal": "error",
-		"jest/prefer-to-be-null": "error",
-		"jest/prefer-to-be-undefined": "error",
+		"jest/prefer-to-be": "error",
 		"jest/prefer-to-contain": "error",
 		"jest/prefer-to-have-length": "error",
 		"jest/prefer-todo": "error",
