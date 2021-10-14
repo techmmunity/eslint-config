@@ -71,6 +71,7 @@
 		"prettier": "^2.3.0"
 	},
 	"scripts": {
+		"prepare": "husky install",
 		"build": "./scripts/build.sh",
 		"format": "eslint . --fix --quiet --ignore-pattern docs",
 		"lint": "eslint . --quiet --ignore-pattern docs",
