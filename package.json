@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "5.1.1",
+	"version": "5.1.2",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
@@ -44,7 +44,7 @@
 	"dependencies": {
 		"@babel/core": "^7.15.5",
 		"@babel/eslint-parser": "^7.15.4",
-		"@next/eslint-plugin-next": "^12.0.0",
+		"@next/eslint-plugin-next": "^12.0.1",
 		"@rushstack/eslint-patch": "^1.0.9",
 		"@typescript-eslint/eslint-plugin": "^5.2.0",
 		"@typescript-eslint/parser": "^5.2.0",
@@ -60,7 +60,7 @@
 		"eslint-plugin-prefer-arrow": "^1.2.3",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.26.1",
-		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-plugin-react-hooks": "^4.2.1-alpha-4298ddbc5-20211023",
 		"eslint-plugin-sonarjs": "^0.10.0"
 	},
 	"devDependencies": {
@@ -78,6 +78,7 @@
 		"upgrade-dependencies": "yarn upgrade-interactive --latest",
 		"husky:pre-commit": "lint-staged",
 		"husky:install": "husky install",
-		"lk": "yarn build && cd dist && yarn link && cd .."
+		"lk": "yarn build && cd dist && yarn link && cd ..",
+		"ulk": "yarn unlink && yarn lk"
 	}
 }

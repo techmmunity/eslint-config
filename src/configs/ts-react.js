@@ -10,6 +10,7 @@ module.exports = {
 			{
 				selector: "default",
 				format: ["camelCase", "PascalCase"],
+				leadingUnderscore: "allow",
 			},
 			{
 				selector: "enum",
@@ -26,6 +27,7 @@ module.exports = {
 			{
 				selector: "variableLike",
 				format: ["camelCase", "PascalCase", "UPPER_CASE"],
+				leadingUnderscore: "allow",
 			},
 			{
 				selector: "typeLike",
