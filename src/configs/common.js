@@ -63,7 +63,7 @@ module.exports = {
 		 * https://eslint.org/docs/rules
 		 */
 		"no-await-in-loop": "error",
-		"no-console": "error",
+		"no-console": ["error", { allow: ["error"] }],
 		"no-constant-condition": "warn",
 		"no-loss-of-precision": "error",
 		"no-unreachable-loop": "error",
