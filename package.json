@@ -1,6 +1,6 @@
 {
 	"name": "@techmmunity/eslint-config",
-	"version": "5.0.4",
+	"version": "5.1.0",
 	"license": "Apache-2.0",
 	"author": "Techmmunity",
 	"description": "Techmmunity Style Guide",
@@ -44,10 +44,10 @@
 	"dependencies": {
 		"@babel/core": "^7.15.5",
 		"@babel/eslint-parser": "^7.15.4",
-		"@next/eslint-plugin-next": "^11.1.2",
-		"@rushstack/eslint-patch": "^1.0.6",
-		"@typescript-eslint/eslint-plugin": "^5.1.0",
-		"@typescript-eslint/parser": "^5.1.0",
+		"@next/eslint-plugin-next": "^12.0.0",
+		"@rushstack/eslint-patch": "^1.0.9",
+		"@typescript-eslint/eslint-plugin": "^5.2.0",
+		"@typescript-eslint/parser": "^5.2.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-config-standard": "^16.0.3",
 		"eslint-import-resolver-node": "^0.3.6",
@@ -67,7 +67,7 @@
 	"devDependencies": {
 		"eslint": "^8.1.0",
 		"husky": "^7.0.4",
-		"lint-staged": "11.2.4",
+		"lint-staged": "11.2.6",
 		"prettier": "^2.3.0"
 	},
 	"scripts": {
@@ -75,7 +75,7 @@
 		"build": "./scripts/build.sh",
 		"format": "eslint . --fix --quiet --ignore-pattern docs",
 		"lint": "eslint . --quiet --ignore-pattern docs",
-		"update-dependencies": "yarn upgrade-interactive --latest",
+		"upgrade-dependencies": "yarn upgrade-interactive --latest",
 		"husky:pre-commit": "lint-staged",
 		"husky:install": "husky install",
 		"lk": "yarn build && cd dist && yarn link && cd .."

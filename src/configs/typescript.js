@@ -152,7 +152,21 @@ module.exports = {
 		"no-loss-of-precision": "off",
 		"@typescript-eslint/no-loss-of-precision": "error",
 		"no-magic-numbers": "off",
-		"@typescript-eslint/no-magic-numbers": "error",
+		"@typescript-eslint/no-magic-numbers": [
+			"error",
+			{
+				ignoreEnums: true,
+				ignoreNumericLiteralTypes: true,
+				ignoreReadonlyClassProperties: true,
+			},
+		],
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": [
+			"error",
+			{
+				argsIgnorePattern: "^_",
+			},
+		],
 		"no-redeclare": "off",
 		"@typescript-eslint/no-redeclare": "error",
 		"no-shadow": "off",

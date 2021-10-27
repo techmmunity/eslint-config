@@ -6,6 +6,19 @@ module.exports = {
 			version: "detect",
 		},
 	},
+	overrides: [
+		{
+			files: ["src/pages/**/*.ts"],
+			rules: {
+				/**
+				 * Plugin - Import
+				 *
+				 * https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules
+				 */
+				"import/no-default-export": "error",
+			},
+		},
+	],
 	rules: {
 		/**
 		 * Plugin - React
@@ -15,7 +28,7 @@ module.exports = {
 		"react/display-name": "off",
 		"react/jsx-uses-react": "warn",
 		"react/prop-types": "off",
-		"react/react-in-jsx-scope": "error",
+		"react/react-in-jsx-scope": "off",
 		"react/boolean-prop-naming": "error",
 		"react/destructuring-assignment": ["error", "always"],
 		"react/function-component-definition": [
