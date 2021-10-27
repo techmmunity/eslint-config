@@ -30,18 +30,6 @@ module.exports = {
 			},
 		},
 		{
-			files: ["**/config/*.ts"],
-			rules: {
-				"@typescript-eslint/naming-convention": [
-					"error",
-					{
-						selector: "variableLike",
-						format: ["UPPER_CASE"],
-					},
-				],
-			},
-		},
-		{
 			files: ["**/migrations/*.{js,ts}"],
 			rules: {
 				"@typescript-eslint/quotes": "off",

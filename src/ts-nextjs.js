@@ -1,8 +1,9 @@
 module.exports = {
 	extends: [
-		"./configs/react",
-		"./configs/nextjs",
 		"./configs/typescript",
+		"./configs/react",
 		"./configs/ts-react",
+		"./configs/nextjs",
+		"./configs/ts-nextjs",
 	],
 };
