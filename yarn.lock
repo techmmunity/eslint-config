@@ -268,9 +268,9 @@
     fastq "^1.6.0"
 
 "@rushstack/eslint-patch@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.9.tgz#1168db664faab4c3bb82c76124b393970e80bf89"
-  integrity sha512-yk9Xj/3bUxyz3azMXW8qigLqXWEr2R0h9G7PVnnmjNQdlZLN+aESqCTnVN7ubtYUIQfW32/v8+AXsbpL1ryI1A==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
+  integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
 "@types/json-schema@^7.0.9":
   version "7.0.9"
