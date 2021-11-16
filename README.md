@@ -54,12 +54,6 @@ In this package, you can find the **Techmmunity Style Guide**. We try to keep a 
 yarn add -D @techmmunity/eslint-config eslint prettier
 ```
 
-or
-
-```sh
-npm i --save-dev @techmmunity/eslint-config eslint prettier
-```
-
 ## Modules
 
 **Alert:** After any change at `eslintrc.json` file, you must restart VSCode.
@@ -271,8 +265,7 @@ But in some cases, where that module is already imported, it will cause a confli
 	"root": true,
 	"extends": [
 		"@techmmunity/eslint-config/common", // The common module always should be extended!
-		"@techmmunity/eslint-config/nextjs",
-		"@techmmunity/eslint-config/react" // The react module is already imported by the nextjs module, so it will cause a conflict
+		"@techmmunity/eslint-config/nextjs"
 	]
 }
 ```
