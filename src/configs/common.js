@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 /* eslint-disable no-magic-numbers */
 
 /*
@@ -45,9 +46,10 @@ module.exports = {
 			},
 		},
 		{
-			files: ["**/*.spec.js", "**/*.test.js"],
+			files: ["**/*.spec.{js,ts}", "**/*.test.{js,ts}"],
 			rules: {
 				"no-magic-numbers": "off",
+				"sonarjs/no-duplicate-string": "off",
 			},
 		},
 	],
@@ -337,7 +339,18 @@ module.exports = {
 		"import-helpers/order-imports": [
 			"warn",
 			{
-				groups: ["module", ["parent", "sibling", "index"]],
+				newlinesBetween: "always",
+				groups: [
+					"module",
+					"parent",
+					["sibling", "index"],
+					// eslint-disable-next-line prettier/prettier
+					["/\/enums?\//", "/\/types?\//", "/\/types?.(ts|js)$/"],
+				],
+				alphabetize: {
+					order: "asc",
+					ignoreCase: true,
+				},
 			},
 		],
 	},
