@@ -91,15 +91,21 @@
 
 	// Code Spell Checker
 	"cSpell.words": [
-		"techmmunity",
-		"nextjs",
-		"sonarjs",
+		"backreference",
+		"camelcase",
 		"dbaeumer",
+		"eqeqeq",
 		"eslintconfig",
-		"styleguide",
+		"Guilded",
+		"iife",
+		"mischeck",
+		"nextjs",
+		"nonoctal",
 		"passhref",
 		"polyfillio",
 		"rushstack",
-		"Guilded"
+		"sonarjs",
+		"styleguide",
+		"techmmunity"
 	]
 }

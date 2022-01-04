@@ -8,7 +8,7 @@ module.exports = {
 		/**
 		 * Plugin - Jest Formatting
 		 *
-		 * https://github.com/jest-community/eslint-plugin-jest/tree/main/docs/rules
+		 * https://github.com/dangreenisrael/eslint-plugin-jest-formatting/tree/master/docs/rules
 		 */
 		"jest-formatting/padding-around-all": "error",
 		/**
@@ -32,6 +32,11 @@ module.exports = {
 		"jest/prefer-to-contain": "error",
 		"jest/prefer-to-have-length": "error",
 		"jest/prefer-todo": "error",
-		"jest/require-top-level-describe": "error",
+		"jest/require-top-level-describe": [
+			"error",
+			{
+				maxNumberOfTopLevelDescribes: 2,
+			},
+		],
 	},
 };

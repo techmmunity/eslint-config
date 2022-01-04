@@ -12,7 +12,11 @@
 
 In this package, you can find the **Techmmunity Style Guide**. We try to keep a clean and consistent code style, with modern features and using best practices.
 
-[![Discord Community](https://img.shields.io/badge/discord%20community-5865F2?style=for-the-badge&labelColor=5865F2&logo=discord&logoColor=ffffff)](https://discord.gg/TakYksUzzZ)
+[![Discord Community](https://img.shields.io/badge/discord%20community-5865F2?style=for-the-badge&labelColor=5865F2&logo=discord&logoColor=ffffff)](https://discord.gg/NMtAJ6whG7)
+
+## :warning: WARNING :warning:
+
+This package may not be updated so often, but it not means that it has been abandoned. We do the config in a way to (almost) never have to touch it again, and we only update the package to add new features, what may don't need to happen so often.
 
 ## Badges
 
@@ -46,13 +50,34 @@ In this package, you can find the **Techmmunity Style Guide**. We try to keep a 
 - Constant maintenance
 - Ready-to-go: You don't need any extra config
 - Bye bye prettier: You don't need to be using the prettier extension for VSCode if you have this baby on your project
-- Direct support: Join our guilded community and get your questions answered
+- Direct support: Join our discord community and get your questions answered
 
 ## Install
 
 ```sh
 yarn add -D @techmmunity/eslint-config eslint prettier
 ```
+
+**Obs:** If you are using **VSCode**, you may need/want to do some [extra steps](#extra---vscode-tips--tricks).
+
+## Basic Usage
+
+1 - Create a `.eslintrc.json` file in the root of your project
+
+2 - Put the following content inside the file:
+
+```json
+{
+	"root": true,
+	"extends": "@techmmunity/eslint-config"
+}
+```
+
+3 - Restart the VSCode, and it's done!
+
+## Need more examples?
+
+We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our discord community](https://discord.gg/NMtAJ6whG7) and make some questions!
 
 ## Modules
 
@@ -296,10 +321,6 @@ To disable Prettier, you just need to add this to your vscode configs:
 ```
 
 You can access this configs by pressing `Ctrl + Shift + P` and tipping `Preferences: Open Settings (JSON)`.
-
-## Need more examples?
-
-We provide an [example repository](https://github.com/techmmunity/eslint-config/tree/master/docs/examples/common), you can give a look at it, or [join our guilded community](https://guilded.gg/techmmunity) and make some questions!
 
 ## Extra - VSCode Tips & Tricks
 

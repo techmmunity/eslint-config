@@ -65,6 +65,7 @@ module.exports = {
 		"@typescript-eslint/consistent-indexed-object-style": "error",
 		"@typescript-eslint/consistent-type-assertions": "error",
 		"@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+		"@typescript-eslint/consistent-type-imports": "error",
 		"@typescript-eslint/explicit-member-accessibility": "error",
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"@typescript-eslint/member-delimiter-style": "error",

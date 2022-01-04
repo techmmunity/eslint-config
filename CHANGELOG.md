@@ -15,6 +15,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+### Dependencies
+
+## [5.2.0] - 2022-01-03
+
+### Added
+
+- `@typescript-eslint/consistent-type-imports` rule
+
+### Changed
+
+- Improve `import-helpers/order-imports` config
+- Improve `jest/require-top-level-describe` config
+
+### Fixed
+
+### Removed
+
+### Dependencies
+
 ## [5.1.3] - 2021-11-16
 
 ### Added
