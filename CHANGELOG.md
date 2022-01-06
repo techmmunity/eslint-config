@@ -9,7 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `utils` imports category
+
 ### Changed
+
+- Imports that start with `enum` or `enums` will be in the types category
+- Imports that start with `type` or `types` will be in the types category
 
 ### Fixed
 
