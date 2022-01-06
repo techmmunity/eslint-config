@@ -345,6 +345,8 @@ module.exports = {
 					"parent",
 					["sibling", "index"],
 					// eslint-disable-next-line prettier/prettier
+					["/\/configs?\//", "/^configs?$/"],
+					// eslint-disable-next-line prettier/prettier
 					["/\/enums?\//", "/\/types?\//", "/\/types?.(ts|js)$/"],
 				],
 				alphabetize: {

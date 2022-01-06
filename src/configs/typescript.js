@@ -134,6 +134,8 @@ module.exports = {
 		"@typescript-eslint/lines-between-class-members": "error",
 		"no-dupe-class-members": "off",
 		"@typescript-eslint/no-dupe-class-members": "error",
+		"no-duplicate-imports": "off",
+		"@typescript-eslint/no-duplicate-imports": "error",
 		"no-empty-function": "off",
 		"@typescript-eslint/no-empty-function": "off",
 		"no-invalid-this": "off",
