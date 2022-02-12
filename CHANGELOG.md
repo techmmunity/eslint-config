@@ -9,12 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+### Changed
+
+### Fixed
+
+### Removed
+
+### Dependencies
+
+## [5.2.2] - 2022-02-12
+
+### Added
+
 - `utils` imports category
 
 ### Changed
 
 - Imports that start with `enum` or `enums` will be in the types category
 - Imports that start with `type` or `types` will be in the types category
+- Disable `camelcase` rule when using `typescript` module, because it's unnecessary
 
 ### Fixed
 
