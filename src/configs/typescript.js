@@ -70,6 +70,26 @@ module.exports = {
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"@typescript-eslint/member-delimiter-style": "error",
 		"@typescript-eslint/method-signature-style": "error",
+		"@typescript-eslint/no-base-to-string": "error",
+		"@typescript-eslint/no-confusing-non-null-assertion": "error",
+		"@typescript-eslint/no-require-imports": "error",
+		"@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+		"@typescript-eslint/no-unnecessary-type-arguments": "error",
+		"@typescript-eslint/no-unnecessary-type-constraint": "error",
+		"@typescript-eslint/prefer-enum-initializers": "error",
+		"@typescript-eslint/prefer-includes": "error",
+		"@typescript-eslint/prefer-literal-enum-member": "error",
+		"@typescript-eslint/prefer-optional-chain": "error",
+		"@typescript-eslint/prefer-readonly": "error",
+		"@typescript-eslint/prefer-string-starts-ends-with": "error",
+		"@typescript-eslint/sort-type-union-intersection-members": "error",
+		"@typescript-eslint/switch-exhaustiveness-check": "error",
+		"@typescript-eslint/type-annotation-spacing": "error",
+		"@typescript-eslint/unified-signatures": "error",
+		/**
+		 * Extension Rules
+		 */
+		"camelcase": "off",
 		"@typescript-eslint/naming-convention": [
 			"error",
 			{
@@ -99,25 +119,6 @@ module.exports = {
 				format: ["PascalCase"],
 			},
 		],
-		"@typescript-eslint/no-base-to-string": "error",
-		"@typescript-eslint/no-confusing-non-null-assertion": "error",
-		"@typescript-eslint/no-require-imports": "error",
-		"@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
-		"@typescript-eslint/no-unnecessary-type-arguments": "error",
-		"@typescript-eslint/no-unnecessary-type-constraint": "error",
-		"@typescript-eslint/prefer-enum-initializers": "error",
-		"@typescript-eslint/prefer-includes": "error",
-		"@typescript-eslint/prefer-literal-enum-member": "error",
-		"@typescript-eslint/prefer-optional-chain": "error",
-		"@typescript-eslint/prefer-readonly": "error",
-		"@typescript-eslint/prefer-string-starts-ends-with": "error",
-		"@typescript-eslint/sort-type-union-intersection-members": "error",
-		"@typescript-eslint/switch-exhaustiveness-check": "error",
-		"@typescript-eslint/type-annotation-spacing": "error",
-		"@typescript-eslint/unified-signatures": "error",
-		/**
-		 * Extension Rules
-		 */
 		"comma-dangle": "off",
 		"@typescript-eslint/comma-dangle": ["error", "always-multiline"],
 		"comma-spacing": "off",
