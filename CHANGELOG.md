@@ -17,6 +17,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 
+## [5.2.3] - 2022-02-17
+
+### Added
+
+### Changed
+
+- Change rule `no-script-in-head` to `no-script-component-in-head`
+
+### Fixed
+
+### Removed
+
+### Dependencies
+
 ## [5.2.2] - 2022-02-12
 
 ### Added
