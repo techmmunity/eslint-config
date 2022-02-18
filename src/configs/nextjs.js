@@ -63,7 +63,7 @@ module.exports = {
 		"@next/next/no-document-import-in-page": "error",
 		"@next/next/no-head-import-in-document": "error",
 		"@next/next/no-script-in-document": "error",
-		"@next/next/no-script-in-head": "error",
+		"@next/next/no-script-component-in-head": "error",
 		"@next/next/no-typos": "warn",
 		"@next/next/no-duplicate-head": "error",
 		"@next/next/inline-script-id": "error",
