@@ -61,7 +61,7 @@
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.26.1",
 		"eslint-plugin-react-hooks": "^4.2.1-alpha-4298ddbc5-20211023",
-		"eslint-plugin-sonarjs": "^0.11.0"
+		"eslint-plugin-sonarjs": "^0.13.0"
 	},
 	"devDependencies": {
 		"eslint": "^8.9.0",
