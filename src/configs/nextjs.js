@@ -63,13 +63,13 @@ module.exports = {
 		"@next/next/no-typos": "warn",
 		"@next/next/no-unwanted-polyfillio": "warn",
 		// Errors
-		"@next/next/no-html-link-for-pages": "error",
-		"@next/next/no-sync-scripts": "error",
 		"@next/next/inline-script-id": "error",
 		"@next/next/no-assign-module-variable": "error",
 		"@next/next/no-document-import-in-page": "error",
 		"@next/next/no-duplicate-head": "error",
 		"@next/next/no-head-import-in-document": "error",
 		"@next/next/no-script-component-in-head": "error",
+		"@next/next/no-html-link-for-pages": "error",
+		"@next/next/no-sync-scripts": "error",
 	},
 };
