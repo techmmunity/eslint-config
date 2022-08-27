@@ -107,7 +107,12 @@ module.exports = {
 		"no-iterator": "error",
 		"no-labels": "error",
 		"no-lone-blocks": "error",
-		"no-magic-numbers": "error",
+		"no-magic-numbers": [
+			"error",
+			{
+				ignore: [0],
+			},
+		],
 		"no-multi-spaces": "error",
 		"no-new": "error",
 		"no-new-func": "error",
@@ -182,7 +187,7 @@ module.exports = {
 		"multiline-ternary": ["error", "always-multiline"],
 		"new-parens": "error",
 		"no-lonely-if": "error",
-		"no-mixed-operators": "error",
+		"no-mixed-operators": "off",
 		"no-multi-assign": "error",
 		"no-multiple-empty-lines": "error",
 		"no-negated-condition": "error",
